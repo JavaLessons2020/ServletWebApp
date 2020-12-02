@@ -1,4 +1,4 @@
-package org.itstep.servlet;
+package org.itstep.servlet.lesson1_2;
 
 import org.itstep.model.Person;
 

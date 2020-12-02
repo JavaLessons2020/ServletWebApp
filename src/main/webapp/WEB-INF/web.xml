@@ -9,22 +9,23 @@
 
     <servlet>
         <servlet-name>MyServlet</servlet-name>
-        <servlet-class>org.itstep.servlet.MyServlet</servlet-class>
+        <servlet-class>org.itstep.servlet.lesson1_2.MyServlet</servlet-class>
     </servlet>
 
     <servlet>
         <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>org.itstep.servlet.HomeServlet</servlet-class>
+        <servlet-class>org.itstep.servlet.lesson1_2.HomeServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Person</servlet-name>
-        <servlet-class>org.itstep.servlet.PersonServlet</servlet-class>
+        <servlet-class>org.itstep.servlet.lesson1_2.PersonServlet</servlet-class>
     </servlet>
+
+
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
-
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern>/form</url-pattern>
@@ -33,5 +34,38 @@
         <servlet-name>Person</servlet-name>
         <url-pattern>/person</url-pattern>
     </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>TableServlet</servlet-name>
+        <servlet-class>org.itstep.servlet.lesson3.TableServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TableServlet</servlet-name>
+        <url-pattern>/table</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Table_jsp</servlet-name>
+        <jsp-file>/table.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Table_jsp</servlet-name>
+        <url-pattern>/table_jsp</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>org.itstep.servlet.lesson3.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
