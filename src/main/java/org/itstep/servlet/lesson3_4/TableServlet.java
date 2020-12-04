@@ -1,4 +1,4 @@
-package org.itstep.servlet.lesson3;
+package org.itstep.servlet.lesson3_4;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

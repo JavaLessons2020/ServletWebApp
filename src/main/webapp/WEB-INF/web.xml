@@ -39,7 +39,7 @@
 
     <servlet>
         <servlet-name>TableServlet</servlet-name>
-        <servlet-class>org.itstep.servlet.lesson3.TableServlet</servlet-class>
+        <servlet-class>org.itstep.servlet.lesson3_4.TableServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -60,7 +60,7 @@
 
     <servlet>
         <servlet-name>SessionServlet</servlet-name>
-        <servlet-class>org.itstep.servlet.lesson3.SessionServlet</servlet-class>
+        <servlet-class>org.itstep.servlet.lesson3_4.SessionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>SessionServlet</servlet-name>
